@@ -42,7 +42,7 @@ def get_x_token():
 
 def buy(json, itemid, productid):
     print("Spam buying limited...")
-    bot.DoneCollect(itemid)
+    Thread(target=bot.StartCollect, args=(productid)).start()
     data = {
         "collectibleItemId": itemid,
         "expectedCurrency": 1,
