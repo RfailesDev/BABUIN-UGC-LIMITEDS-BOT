@@ -17,8 +17,8 @@ print("Bot started!")
 
 # data
 BotUsername = "BABUIN-FM"
-ChannelId = "1062353490535514222"#"1040630178566656161"
-token = 'MTA3MTUxMTIzMjU1ODk0MDMwMA.Gasrif.4E-W_bX1qvHZmi7kB3zXM8BtQnxBst4uQm5EhI'
+ChannelId = "shiiiit"#"1040630178566656161"
+token = 'shiiiiiiiiiiiit'
 
 
 bot = discum.Client(token=token, log=False)
